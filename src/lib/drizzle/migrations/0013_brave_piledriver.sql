@@ -1,0 +1,1 @@
+ALTER TABLE "companies" ADD COLUMN "community_vat_number" varchar(10);

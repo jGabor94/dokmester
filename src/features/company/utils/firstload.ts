@@ -1,0 +1,17 @@
+export const CompanyData = {
+  _id: '',
+  name: '',
+  taxnumber: '',
+  zip: 0,
+  city: '',
+  address: '',
+  accountNumber: '',
+  accountProvider: '',
+  planID: '',
+  startDate: new Date('0000-00-00'),
+  endDate: new Date('0000-00-00'),
+  logo: '',
+  color: '#13a4ec',
+  createdAt: new Date('0000-00-00'),
+  updatedAt: new Date('0000-00-00'),
+}

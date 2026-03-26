@@ -1,0 +1,1 @@
+ALTER TABLE "companies_meta" ALTER COLUMN "users_number" SET DEFAULT 0;

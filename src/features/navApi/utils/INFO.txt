@@ -1,0 +1,11 @@
+URL-ek és erőforrások:
+https://api-test.onlineszamla.nav.gov.hu/invoiceService/v3/manageAnnulment
+https://api-test.onlineszamla.nav.gov.hu/invoiceService/v3/manageInvoice
+https://api-test.onlineszamla.nav.gov.hu/invoiceService/v3/queryInvoiceChainDigest
+https://api-test.onlineszamla.nav.gov.hu/invoiceService/v3/queryInvoiceCheck
+https://api-test.onlineszamla.nav.gov.hu/invoiceService/v3/queryInvoiceData
+https://api-test.onlineszamla.nav.gov.hu/invoiceService/v3/queryInvoiceDigest
+https://api-test.onlineszamla.nav.gov.hu/invoiceService/v3/queryTransactionList
+https://api-test.onlineszamla.nav.gov.hu/invoiceService/v3/queryTransactionStatus
+https://api-test.onlineszamla.nav.gov.hu/invoiceService/v3/queryTaxpayer
+https://api-test.onlineszamla.nav.gov.hu/invoiceService/v3/tokenExchange
