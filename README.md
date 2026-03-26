@@ -33,9 +33,11 @@ A projekten belül főként a **backend oldal** fejlesztése volt az én feladat
 
 | Réteg | Technológia |
 |---|---|
-| Frontend | Next.js 14 (App Router), React, TypeScript |
+| Frontend | Next.js 15 (App Router), React, TypeScript |
 | Backend | Next.js Server Actions, API Routes |
-| Adatbázis | PostgreSQL |
+| Adatbázis | PostgreSQL (Supabase), Drizzle ORM |
+| Fájltárolás | Supabase Storage |
+| Fizetés | Stripe |
 | Stílus | Tailwind CSS |
 
 ---
@@ -48,6 +50,64 @@ A fejlesztés egy korábbi munkaviszony keretében indult el, majd leállt. A k�
 
 ---
 
+## Helyi futtatás
+
+> Csak fejlesztési/tanulmányozási célra ajánlott.
+
+```bash
+# 1. Függőségek telepítése
+npm install
+
+# 2. Környezeti változók beállítása
+cp .env.local
+# Töltsd ki a saját értékeidet (lásd lentebb)
+
+# 3. Adatbázis migrálása
+npx drizzle-kit migrate
+
+# 4. Fejlesztői szerver indítása
+npm run dev
+```
+
+Az alkalmazás a `http://localhost:3000` címen érhető el.
+
+---
+
+## Környezeti változók
+
+Hozz létre egy `.env.local` fájlt a projekt gyökerében az alábbi változókkal:
+
+```dotenv
+# Auth
+AUTH_SECRET=''           # Generálható: npx auth secret
+NEXTAUTH_URL='http://localhost:3000'
+AUTH_URL='http://localhost:3000/api/auth'
+BASE_URL='http://localhost:3000'
+JWT_SECRET=''
+
+# E-mail (SMTP)
+SMTP_HOST=''             # pl. smtp.hostinger.com
+SMTP_USER=''
+SMTP_PASSWORD=''
+
+# Session
+NEXT_PUBLIC_SESSION_CHECK_INTERVAL=60000
+
+# Supabase
+SUPABASE_PROJECT_URL=''
+NEXT_PUBLIC_SUPABASE_BUCKET_URL=''
+SUPABASE_API_KEY=''
+DATABASE_URL=''          # postgresql://...
+SUPABASE_IMAGE_LINK=''
+
+# Stripe
+STRIPE_SECRET_WEBHOOK_KEY=''
+STRIPE_SECRET=''
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=''
+
+# Egyéb
+CRYPTO_SECRET_KEY=''
+```
 
 ## Licenc és jogok
 
