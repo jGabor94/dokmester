@@ -33,7 +33,7 @@ A projekten belül főként a **backend oldal** fejlesztése volt az én feladat
 
 | Réteg | Technológia |
 |---|---|
-| Frontend | Next.js 15 (App Router), React, TypeScript |
+| Frontend | Next.js 14 (App Router), React, TypeScript |
 | Backend | Next.js Server Actions, API Routes |
 | Adatbázis | PostgreSQL (Supabase), Drizzle ORM |
 | Fájltárolás | Supabase Storage |
