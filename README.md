@@ -15,6 +15,8 @@ A **Dokmester** egy vállalati belső dokumentumkezelő rendszer prototípusa, a
 
 A kód egy korábbi munkáltató engedélyével kerül nyilvánosságra, kizárólag portfolió és referencia céljából.
 
+A projekten belül főként a **backend oldal** fejlesztése volt az én feladatom — az adatbázis-architektúra, a szerver oldali logika, az API réteg és az adatkezelési folyamatok.
+
 ---
 
 ## Főbb funkciók
