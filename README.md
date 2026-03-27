@@ -11,9 +11,9 @@
 
 ## Áttekintés
 
-A **Dokmester** egy vállalati belső dokumentumkezelő rendszer prototípusa, amelyet egy korábbi megbízás keretében fejlesztettem. A projekt célja az volt, hogy a vállalat papíralapú és szétszórt digitális dokumentációját egyetlen, egységes rendszerbe vonja össze.
+A **Dokmester** egy vállalati belső dokumentumkezelő rendszer prototípusa, amelyet a **JRSoft** megbízásából fejlesztettem. A projekt célja az volt, hogy a vállalat papíralapú és szétszórt digitális dokumentációját egyetlen, egységes rendszerbe vonja össze.
 
-A kód egy korábbi munkáltató engedélyével kerül nyilvánosságra, kizárólag portfolió és referencia céljából.
+A kód a JRSoft engedélyével kerül nyilvánosságra, kizárólag portfolió és referencia céljából.
 
 A projekten belül főként a **backend oldal** fejlesztése volt az én feladatom — az adatbázis-architektúra, a szerver oldali logika, az API réteg és az adatkezelési folyamatok.
 
@@ -111,4 +111,4 @@ CRYPTO_SECRET_KEY=''
 
 ## Licenc és jogok
 
-A kód egy korábbi megbízó szóbeli engedélyével kerül nyilvánosságra, kizárólag portfolió referencia céljából. Üzleti célú felhasználása nem engedélyezett.
+A kód a **JRSoft** szóbeli engedélyével kerül nyilvánosságra, kizárólag portfolió referencia céljából. Üzleti célú felhasználása nem engedélyezett.
